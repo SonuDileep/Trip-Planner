@@ -1,0 +1,69 @@
+/* Add your own styles here. Use of this file should be minimized at all costs. However, if you feel the need to
+    declare your own CSS classes for a small padding fix or whatnot, this is the purpose of this file. You may be
+    tempted to go all out with the styling of your website. We encourage you not to spend the time styling the pages
+    for this class, and to spend that time on styling of your own personal webpage or side project.
+ */
+
+.div-inline {
+	display: inline-block;
+}
+
+.my-dropdown {
+	line-height: 1;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.fa-disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.fa-inline {
+    vertical-align: baseline;
+}
+
+.button-group{
+    height: 3em;
+}
+
+.button-label{
+    flex-direction: column;
+    font-size: 80%;
+}
+
+.modify-dropdown{
+    height: inherit;
+}
+
+.input-group-buttons {
+  /* Just a little styling to make it pretty */
+  background:black;
+  padding:2px;
+  margin-right: .025em;
+  color:white;
+  font-size: 10%;
+}
+
+.rightButton {
+    float: right;
+    height: 3em;
+}
+
+.save-trip-row {
+    height: 3.5em;
+    overflow: hidden;
+}
+
+.tripText {
+    font-size: 85%;
+}
+
+.fab-div {
+    position: fixed;
+    border-radius: 100px;
+    bottom: 8vh;
+    right: 1vh;
+    z-index: 2;
+    box-shadow: 0 0 20px $csu-gold;
+}
